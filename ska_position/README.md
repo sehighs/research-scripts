@@ -28,7 +28,7 @@ pip install pandas
 
 ## Data description
 
-- **ska.xlsx** (512): full information of SKA array, but the codes only using 296 stations as example:
+- **ska.xlsx** (512): full information of SKA1-low array, but the codes only using 296 stations as example:
                      `data.values[2:298]` — each row is `[lon_deg, lat_deg]`.
 - **Center antenna** (1): `data.values[1:2]` — used as the origin.
 - ska_centre.txt: save the output of codes to use in other codes.
